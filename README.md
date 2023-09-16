@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Repositório de exercícios da Trybe
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
@@ -246,3 +247,6 @@
 - [ ]  36-3: *Entrada e Saída de dados*
 - [ ]  36-4: *Trabalhando com arquivos em Python*
 - […]
+=======
+# trybe-exercicios
+>>>>>>> 8084c37047dbbade94ec63628c3f0f67d416fba6

@@ -48,12 +48,12 @@ const customerInfo = (fullOrder) => {
 console.log(customerInfo(order));
 
 const orderModifier = (fullOrder) => {
-  const costumerName = fullOrder.name;
+  fullOrder.name = "Luiz Silva";
   const drink = fullOrder.order.drinks.coke.type;
   const pizza = Object.keys(fullOrder.order.pizza).join(", ");
   fullOrder.payment.total = 50.0;
   const total = fullOrder.payment.total;
-  return `Olá, ${costumerName}, o valor total de seu pedido de ${pizza} e ${drink} é R$ ${total}.`;
+  return `Olá, ${fullOrder.name}, o valor total de seu pedido de ${pizza} e ${drink} é R$ ${total}.`;
 };
 
 console.log(orderModifier(order));

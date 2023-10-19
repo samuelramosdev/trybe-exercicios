@@ -95,5 +95,6 @@ window.onload = () => {
     let fontFamily = localStorage.getItem("fontFamily");
     if (fontFamily) setFontFamily(fontFamily);
   };
+
   userPreferences();
 };
